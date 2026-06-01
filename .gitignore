@@ -1,0 +1,35 @@
+# --- Compilação e Artefatos do Rust ---
+# Ignora a pasta onde o Cargo coloca os binários e arquivos compilados
+/target/
+
+# --- Arquivos de Trava (Lockfiles) ---
+# ATENÇÃO: Se você estiver desenvolvendo uma aplicação (executável), 
+# você DEVE commitar o Cargo.lock. Se for uma biblioteca, ignore-o.
+# Descomente a linha abaixo apenas se for uma biblioteca (library):
+# Cargo.lock
+
+# --- Arquivos temporários do Cargo ---
+# Arquivos gerados por comandos como `cargo bench` ou ferramentas de profiling
+**/*.rs.bk
+*.profraw
+
+# --- IDEs e Editores de Código ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ / PyCharm / CLion / RustRover
+.idea/
+*.iml
+
+# Vim
+.*.swp
+*~
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
