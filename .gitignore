@@ -1,6 +1,6 @@
 # --- Compilação e Artefatos do Rust ---
 # Ignora a pasta onde o Cargo coloca os binários e arquivos compilados
-/target/
+target
 
 # --- Arquivos de Trava (Lockfiles) ---
 # ATENÇÃO: Se você estiver desenvolvendo uma aplicação (executável), 
