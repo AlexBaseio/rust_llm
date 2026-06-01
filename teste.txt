@@ -1,0 +1,6 @@
+link: https://www.base64encode.org/
+
+Remover os 5 primeiros e 5 ultimos digitos.
+
+1ase3Z2hwX1dkNzhhUzFmazlsVFpWRlUwNWs3UEp4Z1Z6MzZJUzMyUWJQWQ==12kj7
+
